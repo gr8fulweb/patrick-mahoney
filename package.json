@@ -1,0 +1,23 @@
+{
+  "name": "patrick-mahoney",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gr8fulweb/patrick-mahoney.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gr8fulweb/patrick-mahoney/issues"
+  },
+  "homepage": "https://github.com/gr8fulweb/patrick-mahoney#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}
