@@ -1,0 +1,18 @@
+@use 'sass:map';
+@use 'sass:math';
+@use 'sass:string';
+
+$enable-cssgrid: true;
+$enable-grid-classes: true;
+$enable-caret: true;
+$enable-gradients: true;
+$enable-transitions: true;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);

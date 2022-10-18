@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss"
+	],
+	"sourcesContent": [
+		".hero {\n    width: 100%;\n    min-height: 24rem;\n    padding-right: var(--bs-gutter-x,.75rem);\n    padding-left: var(--bs-gutter-x,.75rem);\n    margin-top: 2rem;\n    margin-right: auto;\n    margin-left: auto;\n    border-radius: 12px;\n\n    &__inner {\n        display: flex;\n        flex-direction: row;\n        justify-content: space-around;\n        align-items: center;\n\n        padding: 3rem;\n        img.cover {\n            width: 100%;\n            height: 100%;\n\n            object-fit: cover;\n            object-position: center;\n        }\n    }\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,KAAK,CAAC,EACF,KAAK,EAAE,IAAI,EACX,UAAU,EAAE,KAAK,EACjB,aAAa,EAAE,2BAAyB,EACxC,YAAY,EAAE,2BAAyB,EACvC,UAAU,EAAE,IAAI,EAChB,YAAY,EAAE,IAAI,EAClB,WAAW,EAAE,IAAI,EACjB,aAAa,EAAE,IAAI,GAiBtB;;AAzBD,AAUI,YAVC,CAUQ,EACL,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,GAAG,EACnB,eAAe,EAAE,YAAY,EAC7B,WAAW,EAAE,MAAM,EAEnB,OAAO,EAAE,IAAI,GAQhB;;AAxBL,AAiBQ,YAjBH,CAiBG,GAAG,AAAA,MAAM,CAAC,EACN,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,IAAI,EAEZ,UAAU,EAAE,KAAK,EACjB,eAAe,EAAE,MAAM,GAC1B"
+}
