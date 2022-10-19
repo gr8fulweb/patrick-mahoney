@@ -16,7 +16,7 @@
 
         padding: 3rem;
 
-        @media (max-width: 992px) {
+        @media (max-width: 991.98px) {
             flex-direction: column;
         }
 
@@ -30,14 +30,23 @@
     }
 }
 
-.cards-wrapper {
-    width: unset;
-    position: relative;
-    display: flex;
-    overflow: visible;
+@media (min-width: 991.98px) {
+    #mobileCarousel {
+        display: none!important;
+    }
+    .cards-wrapper {
+        display: flex;
+    }
+    .card {
+        margin: 0 0.5rem;
+        max-width: calc(100%/2);
+    }
 }
-.card {
-    margin: 0 0.5rem;
-    width: calc(100%/4);
-    min-width: 88%!important;
+@media (max-width: 991.98px) {
+    #desktopCarousel {
+        display: none!important;
+    }
+    .card:not(:first-child) {
+        display: none;
+    }
 }
