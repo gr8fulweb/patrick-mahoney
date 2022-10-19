@@ -30,28 +30,14 @@
     }
 }
 
-.cards {
-    &__scroll-container {
-        max-width: none;
-    }
-
-    .scroller-controller {
-        position: relative;
-        width: 100%;
-        padding: 0;
-        list-style: none;
-        touch-action: pan-y;
-        overflow: visible;
-        z-index: 1;
-        transition-property: transform;
-    }
-    .scroller-controller .row {
-        flex-wrap: nowrap;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    &__card-container {
-        width: 279px;
-        margin-right: 16px;
-    }
+.cards-wrapper {
+    width: unset;
+    position: relative;
+    display: flex;
+    overflow: visible;
+}
+.card {
+    margin: 0 0.5rem;
+    width: calc(100%/4);
+    min-width: 88%!important;
 }
