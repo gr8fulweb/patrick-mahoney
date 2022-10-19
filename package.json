@@ -19,5 +19,12 @@
   "homepage": "https://github.com/gr8fulweb/patrick-mahoney#readme",
   "devDependencies": {
     "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "jquery-touchswipe": "^1.6.19"
+  },
+  "dependencies": {
+    "jquery-touchswipe": "^1.6.19"
   }
 }
