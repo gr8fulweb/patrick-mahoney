@@ -49,4 +49,11 @@
     .card:not(:first-child) {
         display: none;
     }
+    #mobileCarousel button.carousel-control-next {
+        opacity: 0;
+        width: 100%;
+    }
+    #mobileCarousel button.carousel-control-prev {
+        display: none;
+    }
 }
